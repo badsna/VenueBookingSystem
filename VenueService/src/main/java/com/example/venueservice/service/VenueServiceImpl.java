@@ -263,7 +263,6 @@ public class VenueServiceImpl implements VenueService {
                 String relPath = path + "images\\" + venue.getVenueName().replaceAll("\\s+", "");
                 String absPath = System.getProperty("user.dir") + File.separator + relPath;
                 File file = new File(existingvenueImage.getImagesUrl());
-                System.out.println("hi>>>>>>>>>>>>>>>>>>." + file);
                 file.delete();
 
 
@@ -278,7 +277,6 @@ public class VenueServiceImpl implements VenueService {
 
                 java.nio.file.Path destinationPath = Paths.get(absolutePath, venueImage.getOriginalFilename());
                 Files.copy(venueImage.getInputStream(), destinationPath, StandardCopyOption.REPLACE_EXISTING);
-                System.out.println("helo>>>>>>>>>>>>>>." + absolutePath + File.separator + venueImage.getOriginalFilename());
                 newVenueImage.setImagesUrl(absolutePath + File.separator + venueImage.getOriginalFilename());
 
             } else {

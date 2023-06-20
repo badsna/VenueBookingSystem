@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ApiGateWay" />
     <file type="web" url="file://$PROJECT_DIR$/BookingService" />
+    <file type="web" url="file://$PROJECT_DIR$/EmailService" />
     <file type="web" url="file://$PROJECT_DIR$/ServiceRegistry" />
     <file type="web" url="file://$PROJECT_DIR$/UserService" />
     <file type="web" url="file://$PROJECT_DIR$/VenueService" />

@@ -41,6 +41,9 @@ dependencies {
 
 	implementation 'org.hibernate.validator:hibernate-validator:7.0.1.Final'
 
+	// https://mvnrepository.com/artifact/org.aspectj/aspectjweaver
+	runtimeOnly group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.19'
+
 
 
 
